@@ -1,0 +1,91 @@
+#home{
+    background: #873cc9;
+}
+
+body {
+top: 0;
+}
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+  }
+
+.caixa{
+    padding: 60px 0;
+    border-bottom: 2px solid  #9f94f5;
+}
+
+footer p a {
+	margin: 5px 15px;
+}
+
+.topo{
+    padding-top: 150px;
+    padding-right: 20px;
+    background: #379cd3;
+    width: 150px;
+}
+
+.logo {
+    background-image: url("img/modelo-de-logotipo-de-educacao-de-livro_617585-439-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: 200% 200%;
+  }
+
+.design {
+    padding-top: 5vh;
+    background-image: url('../img/background-anime-duong-pho-ve-dem.jpeg');
+    background-size: cover;
+    background-position-y: -100px;
+  }
+
+  .imagemFundo {
+    background-image: url('../img/background-anime-duong-pho-ve-dem.jpeg');
+    background-size: 100% 100%; /* Opção para redimensionar a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem de fundo */
+    background-position: center;
+    background-color: #cccccc; /* Used if the image is unavailable */
+    width: 100%; /* Defina largura e altura para o container, se desejado */
+    height: 500%;
+    color: #ffffff; /* Cor do texto dentro do container, para melhor legibilidade */    
+    
+  }
+
+  .fundoCapa {
+    background-size: 100% 100%; /* Opção para redimensionar a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem de fundo */
+    background-position: center;
+    width: 100%; /* Defina largura e altura para o container, se desejado */
+    height: 100%;
+    color: #ffffff; /* Cor do texto dentro do container, para melhor legibilidade */  
+    object-fit: cover;
+    
+  }
+
+  .textoNoMeio {
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+    height: 100vh; /* Garante que o container ocupe a altura total da janela */
+  }
+
+  .imagemFixa{
+        background-image: url("img_tree.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+        margin-right: 200px;
+        background-attachment: fixed;
+  }
+
+  .collapse {
+    top: 0;
+  }
+
+  .bg-warning {
+    background-color: #9f94f5 !important;
+  }
+  
